@@ -81,9 +81,13 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 
 #main-content {
 	position: relative;
-	margin: 0 auto;
+	margin-top: 0 auto;
 	width: 960px;
 
+}
+
+body {
+margin-top: 30px;
 }
 
 article {
@@ -101,6 +105,23 @@ img {
 
 body {
 	margin-top: 25px;
+}
+
+#main-header {
+position: relative;
+width: 960px;
+}
+
+#main-nav {
+position: absolute;
+bottom: 0;
+width: 960px;
+}
+
+#main-header img {
+position: absolute;
+width: 445px;
+top: 0;
 }
 
 
