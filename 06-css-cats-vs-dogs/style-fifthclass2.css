@@ -1,0 +1,113 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*Rachel's code*/
+
+body {
+margin:0 auto;
+width:960px;
+margin-top:25px;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+header {
+position:relative;
+}
+
+
+
+#main-content {
+clear:both;
+}
+
+article {
+
+float: left;
+width: 460px;
+margin-right: 20px;
+line-height:1.15em;
+
+}
+
+article img {
+width: 460px;
+}
+
+footer {
+clear:both;
+}
+
+
+#nav {
+  margin-top:20px;
+  padding:0;
+  text-align:center;
+}
+#nav li {
+  display:inline;
+}
+
+
+  h1 {
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  color:red;
+  }
+ 
+footer {
+  line-height:1.4em;
+  margin-top:25px;
+  font-style:italic;
+  border-top:thin solid grey;
+  color:grey;
+  }
+ 
+#nav a {
+  display:inline-block;
+  padding:10px;
+  text-decoration:none;
+  color:red;
+  
+  
+
+
+  
+
+
+
+
+
+
+
+
+	  
+
