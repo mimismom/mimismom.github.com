@@ -51,71 +51,91 @@ table {
 }
 
 
-/* logo replacement */
 
-header#site-header h1 { position:absolute; left:10px; top:10px; }
-header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
 
 /*Rachel's code*/
 
 body {
-margin:0 auto;
-width:960px;
-margin-top:25px;
+width:100%;
+margin:0px auto;
+}
+
+
+#site-wrapper {
+background-color: #F0F5de;
+width: 100%;
+height:140px;
+margin:0px auto;
 }
 
 #site-header {
 position:relative;
+margin: 0 auto;
+width: 960px;
 }
 
-#site-header img {
+
+
+a {
+text-decoration:none;
+color:#82582D;
+}
+
+
+#site-header h1 { 
 position:absolute;
-top:0;
-left:0;
+left:0px;
+top:0px;
+width:306px; 
+height:123px; 
+background:url(images/logo.png) no-repeat top left; 
+text-indent:-9999px; 
 }
 
 #top-nav {
 position:absolute;
-top:0;
-right:0;
-font-size:.75em;
-color:brown;
-
+top:0px;
+right:0px;
+color:#82582D;
+text-size:0.05em;
 }
 
-
-#top-nav a {
-color:brown;
-text-decoration:none;
-}
-
-#main-menu ul li {
-float:left;
-margin-right:15px;
-margin-left:15px;
-text-transform:uppercase;
-
-}
-
-#main-menu ul li a {
-color:white;
-text-decoration:none;
-}
-
-#content {
-position:relative;
-margin-top:100px;
-background-color:pink;
+#menu-wrapper {
+background-color:#82582D;
+width:100%;
+height:40px;
+clear:both;
 }
 
 #main-menu {
-position:absolute;
-top:150px;
-bottom:0;
-left:0;
-height:50px;
-background-color:brown;
-vertical-align:middle;
+width:960px;
+margin:0 auto;
+}
+
+#main-menu ul {
+display:block;
+}
+
+#main-menu ul li a {
+float:left;
+margin-left:10px;
+text-transform:capitalize;
+color:white;
+}
+
+
+#content-wrapper {
+clear:both;
+width:100%;
+border-top-width:15px;
+border-top-color:#F1F6E0;
+border-bottom-width:15px;
+border-bottom-color:#F1F6E0;
+}
+
+#content {
+width:960px;
+margin:0 auto;
 }
 
 
